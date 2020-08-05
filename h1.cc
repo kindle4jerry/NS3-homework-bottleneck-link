@@ -522,7 +522,7 @@ main (int argc, char *argv[])
   onoff31.SetConstantRate (DataRate ("100kbps"));
   onoff31.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps31 = onoff31.Install (c.Get (31));
-  apps31.Start (Seconds (50.0));
+  apps31.Start (Seconds (45.0));
   apps31.Stop (Seconds (80.0));
 
   OnOffHelper onoff32 ("ns3::UdpSocketFactory",
@@ -530,7 +530,7 @@ main (int argc, char *argv[])
   onoff32.SetConstantRate (DataRate ("100kbps"));
   onoff32.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps32 = onoff32.Install (c.Get (32));
-  apps32.Start (Seconds (50.0));
+  apps32.Start (Seconds (45.0));
   apps32.Stop (Seconds (80.0));
 
   OnOffHelper onoff33 ("ns3::UdpSocketFactory",
@@ -538,7 +538,7 @@ main (int argc, char *argv[])
   onoff33.SetConstantRate (DataRate ("100kbps"));
   onoff33.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps33 = onoff33.Install (c.Get (33));
-  apps33.Start (Seconds (50.0));
+  apps33.Start (Seconds (45.0));
   apps33.Stop (Seconds (80.0));
 
   OnOffHelper onoff34 ("ns3::UdpSocketFactory",
@@ -546,7 +546,7 @@ main (int argc, char *argv[])
   onoff34.SetConstantRate (DataRate ("100kbps"));
   onoff34.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps34 = onoff34.Install (c.Get (34));
-  apps34.Start (Seconds (50.0));
+  apps34.Start (Seconds (45.0));
   apps34.Stop (Seconds (80.0));
 
   OnOffHelper onoff35 ("ns3::UdpSocketFactory",
@@ -554,7 +554,7 @@ main (int argc, char *argv[])
   onoff35.SetConstantRate (DataRate ("100kbps"));
   onoff35.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps35 = onoff35.Install (c.Get (35));
-  apps35.Start (Seconds (50.0));
+  apps35.Start (Seconds (45.0));
   apps35.Stop (Seconds (80.0));
 
   OnOffHelper onoff36 ("ns3::UdpSocketFactory",
@@ -562,7 +562,7 @@ main (int argc, char *argv[])
   onoff36.SetConstantRate (DataRate ("100kbps"));
   onoff36.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps36 = onoff36.Install (c.Get (36));
-  apps36.Start (Seconds (50.0));
+  apps36.Start (Seconds (45.0));
   apps36.Stop (Seconds (80.0));
 
   OnOffHelper onoff37 ("ns3::UdpSocketFactory",
@@ -570,7 +570,7 @@ main (int argc, char *argv[])
   onoff37.SetConstantRate (DataRate ("100kbps"));
   onoff37.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps37 = onoff37.Install (c.Get (37));
-  apps37.Start (Seconds (50.0));
+  apps37.Start (Seconds (45.0));
   apps37.Stop (Seconds (80.0));
 
   OnOffHelper onoff38 ("ns3::UdpSocketFactory",
@@ -578,7 +578,7 @@ main (int argc, char *argv[])
   onoff38.SetConstantRate (DataRate ("100kbps"));
   onoff38.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps38 = onoff38.Install (c.Get (38));
-  apps38.Start (Seconds (50.0));
+  apps38.Start (Seconds (45.0));
   apps38.Stop (Seconds (80.0));
 
   OnOffHelper onoff39 ("ns3::UdpSocketFactory",
@@ -586,7 +586,7 @@ main (int argc, char *argv[])
   onoff39.SetConstantRate (DataRate ("100kbps"));
   onoff39.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps39 = onoff39.Install (c.Get (39));
-  apps39.Start (Seconds (50.0));
+  apps39.Start (Seconds (45.0));
   apps39.Stop (Seconds (80.0));
 
   OnOffHelper onoff40 ("ns3::UdpSocketFactory",
@@ -594,7 +594,7 @@ main (int argc, char *argv[])
   onoff40.SetConstantRate (DataRate ("100kbps"));
   onoff40.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps40 = onoff40.Install (c.Get (40));
-  apps40.Start (Seconds (50.0));
+  apps40.Start (Seconds (45.0));
   apps40.Stop (Seconds (80.0));
 
   OnOffHelper onoff41 ("ns3::UdpSocketFactory",
@@ -602,7 +602,7 @@ main (int argc, char *argv[])
   onoff41.SetConstantRate (DataRate ("100kbps"));
   onoff41.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps41 = onoff41.Install (c.Get (41));
-  apps41.Start (Seconds (50.0));
+  apps41.Start (Seconds (45.0));
   apps41.Stop (Seconds (80.0));
 
   OnOffHelper onoff42 ("ns3::UdpSocketFactory",
@@ -610,7 +610,7 @@ main (int argc, char *argv[])
   onoff42.SetConstantRate (DataRate ("100kbps"));
   onoff42.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps42 = onoff42.Install (c.Get (42));
-  apps42.Start (Seconds (50.0));
+  apps42.Start (Seconds (45.0));
   apps42.Stop (Seconds (80.0));
 
   OnOffHelper onoff43 ("ns3::UdpSocketFactory",
@@ -618,7 +618,7 @@ main (int argc, char *argv[])
   onoff43.SetConstantRate (DataRate ("100kbps"));
   onoff43.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps43 = onoff43.Install (c.Get (43));
-  apps43.Start (Seconds (50.0));
+  apps43.Start (Seconds (45.0));
   apps43.Stop (Seconds (80.0));
 
   OnOffHelper onoff44 ("ns3::UdpSocketFactory",
@@ -626,7 +626,7 @@ main (int argc, char *argv[])
   onoff44.SetConstantRate (DataRate ("100kbps"));
   onoff44.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps44 = onoff44.Install (c.Get (44));
-  apps44.Start (Seconds (50.0));
+  apps44.Start (Seconds (45.0));
   apps44.Stop (Seconds (80.0));
 
   OnOffHelper onoff45 ("ns3::UdpSocketFactory",
@@ -634,7 +634,7 @@ main (int argc, char *argv[])
   onoff45.SetConstantRate (DataRate ("100kbps"));
   onoff45.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps45 = onoff45.Install (c.Get (45));
-  apps45.Start (Seconds (50.0));
+  apps45.Start (Seconds (45.0));
   apps45.Stop (Seconds (80.0));
 
   OnOffHelper onoff46 ("ns3::UdpSocketFactory",
@@ -642,7 +642,7 @@ main (int argc, char *argv[])
   onoff46.SetConstantRate (DataRate ("100kbps"));
   onoff46.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps46 = onoff46.Install (c.Get (46));
-  apps46.Start (Seconds (50.0));
+  apps46.Start (Seconds (45.0));
   apps46.Stop (Seconds (80.0));
 
   OnOffHelper onoff47 ("ns3::UdpSocketFactory",
@@ -650,7 +650,7 @@ main (int argc, char *argv[])
   onoff47.SetConstantRate (DataRate ("100kbps"));
   onoff47.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps47 = onoff47.Install (c.Get (47));
-  apps47.Start (Seconds (50.0));
+  apps47.Start (Seconds (45.0));
   apps47.Stop (Seconds (80.0));
 
   OnOffHelper onoff48 ("ns3::UdpSocketFactory",
@@ -658,7 +658,7 @@ main (int argc, char *argv[])
   onoff48.SetConstantRate (DataRate ("100kbps"));
   onoff48.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps48 = onoff48.Install (c.Get (48));
-  apps48.Start (Seconds (50.0));
+  apps48.Start (Seconds (45.0));
   apps48.Stop (Seconds (80.0));
 
   OnOffHelper onoff49 ("ns3::UdpSocketFactory",
@@ -666,7 +666,7 @@ main (int argc, char *argv[])
   onoff49.SetConstantRate (DataRate ("100kbps"));
   onoff49.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps49 = onoff49.Install (c.Get (49));
-  apps49.Start (Seconds (50.0));
+  apps49.Start (Seconds (45.0));
   apps49.Stop (Seconds (80.0));
 
   OnOffHelper onoff50 ("ns3::UdpSocketFactory",
@@ -674,7 +674,7 @@ main (int argc, char *argv[])
   onoff50.SetConstantRate (DataRate ("100kbps"));
   onoff50.SetAttribute ("PacketSize", UintegerValue (50));
   ApplicationContainer apps50 = onoff50.Install (c.Get (50));
-  apps50.Start (Seconds (50.0));
+  apps50.Start (Seconds (45.0));
   apps50.Stop (Seconds (80.0));
 
 
